@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body
+{
+	margin-top:30px;
+	font-family:"Times New Roman";
+	margin-left:150px;
+	width:80%
+}
+
+.head
+{
+	margin-top:-95px;
+	padding:25px;
+	text-align:center;
+	background-color:grey;
+}
+
+.line
+{
+	border:solid 1px black;
+}
+
+div.sidebar
+{
+	width:20%;
+	height:1000px;
+	padding:20px;
+}
+
+div.objective
+{
+	margin-top:-1022px;
+	margin-left:300px;
+}
+
+div.edu,div.co,.skills,.project,.hobbies
+{
+	margin-left:300px;
+}
+.sign
+{
+	margin-top:-100px;
+	margin-left:900px;
+	background-color:white;	
+}
+
+h4
+{
+	color:black;
+	background-color: darkgrey;
+	padding:10px;
+}
+
+.t1,.th1,.tr1,.td1
+{
+	text-align:center;
+	padding:10px;
+	border:solid 1px black;
+	border-collapse:collapse;
+}
+
