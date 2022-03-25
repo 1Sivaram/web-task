@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>calculator-3</title>
+<link rel="stylesheet" type="text/css" href="calsi3.css">
+<script type="text/javascript" src="calsi3.js"></script>
+</head>
+<body>
+	<div class="calsi">
+		<table class="t1">
+			<tr>
+				<td colspan="4">
+					<input type="text" id="displayBox" readOnly>
+					<input type="text" id="display" placeholder="0" readOnly>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="button" value="c" id="clear" onclick="clearValue()"></td>
+				<td><input type="button" value="(" id="open" onclick="parantheses('(')"></td>
+				<td><input type="button" value=")" id="close" onclick="parantheses(')')"></td>
+				<td><input type="button" value="del" id="del" onclick="backspace()"></td>
+				<td><input type="button" value="x²" id="x2" onclick="operator('x2')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" id="btn7" onclick="displayValue('7')"></td>
+				<td><input type="button" value="8" id="btn8" onclick="displayValue('8')" ></td>
+				<td><input type="button" value="9" id="btn9" onclick="displayValue('9')" ></td>
+				<td><input type="button" class="operators" value="/" id="/" onclick="operator('/')"></td>
+				<td><input type="button" value="x³" id="x3" onclick="operator('x3')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" id="btn4" onclick="displayValue('4')" ></td>
+				<td><input type="button" value="5" id="btn5" onclick="displayValue('5')" ></td>
+				<td><input type="button" value="6" id="btn6" onclick="displayValue('6')" ></td>
+				<td><input type="button" class="operators" value="*" id="*" onclick="operator('*')"></td>
+				<td><input type="button" value="√" id="xr2" onclick="operator('xr2')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" id="btn1" onclick="displayValue('1')" ></td>
+				<td><input type="button" value="2" id="btn2" onclick="displayValue('2')" ></td>
+				<td><input type="button" value="3" id="btn3" onclick="displayValue('3')" ></td>
+				<td><input type="button" class="operators" value="-" id="-" onclick="operator('-')"></td>
+				<td><input type="button" value="%" id="%" onclick="operator('%')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="." id="dot" onclick="displayValue('.')" ></td>
+				<td><input type="button" value="0" id="btn0" onclick="displayValue('0')"></td>
+				<td><input type="button" class="operators" value="+" id="+" onclick="operator('+')"></td>
+				<td colspan="2"><input type="button" value="=" id="equal" onclick="bodmasFunc()"></td>
+			</tr>
+		</table>
+	</div>
+	<p id="comma"></p>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.calsi {
+	text-align: center;
+	width: 250px;
+	height: 400px;
+	padding: 30px;
+	margin-top:10px;
+	position:absolute;
+	right:700px;
+}
+
+.t1
+{
+	box-shadow:0 0 0 10px #656565;
+	border-radius:10px;
+}
+
+table, td, th {
+	background-color:#7b7b7b;
+	border-collapse:collapse;
+}
+
+td{
+	padding:12px;
+}
+
+input[type="button"] {
+	color: black;
+	width: 70px;
+	background-color:#e8e6e6;
+	font-size:20px;
+	padding:10px;
+	height:70px;
+	border-radius:10px;
+	border:none;
+}
+
+input[type="text"] 
+{
+	width: 100%;
+	padding:10px;
+	background-color:#deecb8;
+	height:50px;
+	font-size:20px;
+}
+
+input[type="button"]:hover
+{
+	background-color: mediumseagreen;
+}
+
+#display,#displayBox
+{
+	outline:none;
+	border:none;
+	user-select:none;
+	text-align:right;
+	font-size:25px;
+	color:bold black;
+	font-weight:bold;
+	padding:10px;
+}
+
+#equal
+{
+	background-color: skyblue;
+}
+
+#clear
+{
+	background-color: skyblue;
+	height:100px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#displayBox
+{
+	margin-top:10px;
+	font-size:18px;
+	font-weight:300;
+	height:10px;
+	padding-top:20px;
+	
+}
+#dot
+{
+	font-size:x-large;
+}
+
+#display
+{
+	padding-top:0px;
+}
